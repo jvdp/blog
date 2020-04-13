@@ -1,0 +1,3 @@
+#!/bin/sh
+
+pandoc index.md --data-dir=.pandoc -f markdown -t html5 -s -o index.html

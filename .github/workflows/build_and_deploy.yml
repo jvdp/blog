@@ -14,7 +14,7 @@ jobs:
 
     - uses: docker://pandoc/core
       with:
-        args: index.md --template _template.html -f markdown -t html -s -o index.html
+        entrypoint: bin/build
 
     - uses: amondnet/now-deployment@v2.0.2
       with:
