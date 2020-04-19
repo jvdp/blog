@@ -14,9 +14,12 @@ $if(keywords)$
   <meta name="keywords" content="$for(keywords)$$keywords$$sep$, $endfor$" />
 $endif$
   <title>$if(title-prefix)$$title-prefix$ – $endif$$pagetitle$</title>
+  <script async src="https://vague-ideas-ackee.herokuapp.com/tracker.js" data-ackee-server="https://vague-ideas-ackee.herokuapp.com" data-ackee-domain-id="61db0a8f-c745-420f-bb83-13f0f2fa5df8"></script>
   <style>
     $styles.html()$
   </style>
+  <link rel="stylesheet" href="assets/modern-normalize.css" />
+  <link rel="stylesheet" href="assets/main.css" />
 $for(css)$
   <link rel="stylesheet" href="$css$" />
 $endfor$

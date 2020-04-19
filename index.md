@@ -2,8 +2,6 @@
 title: Vague Ideas
 ...
 
-# Welcome to vague ideas
-
 Expressed by Jaap van der Plas.
 
 - Functional programming is always better.
