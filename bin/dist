@@ -1,0 +1,6 @@
+#!/bin/sh
+
+bin/build
+rm -rf dist
+mkdir dist
+cp -r *.html assets dist/
